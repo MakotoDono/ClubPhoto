@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="fr">
+    <head>
+        <title>Club Photo</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link type="text/css" href="css/style.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script src="js/doTabT.js" type="text/javascript"></script>
+        <script src="js/fctDataAgendaExposition.js" type="text/javascript"></script>
+        <script src="js/myJsUtil.js" type="text/javascript"></script>
+        <script src="js/menuDate.js" type="text/javascript"></script>
+        <script src="js/myJsAgendaExposition.js" type="text/javascript"></script>
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <img src="Images/logo_club.jpg" alt="logoClub"/>
+            <h1>Le club photo Verrières Images</h1>
+        </header>
+        <div id="date"></div>
+        <nav>
+            <ul id="menu01">
+                <li id="affMenuClub">
+                    Le club
+                    <ul id="menuClub">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="LesActivites.html">Les activités</a></li>
+                        <li><a href="LaPhototeque.html">La phototèque</a></li>
+                        <li><a href="contactezNous.html">Contactez-nous</a></li>
+                    </ul>
+                </li>
+                <li id="affMenuCDP91">
+                    Le CDP91
+                    <ul id="menuCDP91">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="agendaExposition.html">Agenda des expositions</a></li>
+                        <li><a href="listeDesClubs.html">Liste des clubs</a></li>
+                    </ul>
+                </li>
+                <li><a href="Liens.html">Liens</a></li>
+            </ul>
+        </nav>
+        <section id="cheminDeFer"><p>Vous êtes ici : <span></span></p></section>
+        <section id="contenueAgenda">
+            <article id="agendaExposition" class="targetClass">
+                <table id="tableExposition">
+                    <thead>
+                        <tr>
+                            <th>Nom du club</th>
+                            <th>les thèmes</th>
+                            <th>date de début</th>
+                            <th>détails</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Nom du club</th>
+                            <th>les thèmes</th>
+                            <th>date de début</th>
+                            <th>détails</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <!--tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td><button>appuyer</button></td>
+                        </tr-->
+                    </tbody>
+                </table>
+            </article>
+            <aside id="infoSup"></aside>
+        </section>
+        </div>
+    </body>
+</html>

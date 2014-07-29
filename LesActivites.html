@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="fr">
+    <head>
+        <title>Club Photo</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link type="text/css" href="css/style.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/jquery-ui.js"></script>
+        <script src="js/doTabT.js" type="text/javascript"></script>
+        <script src="js/dataActivites.js" type="text/javascript"></script>
+        <script src="js/myJsUtil.js" type="text/javascript"></script>
+        <script src="js/menuDate.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/myJsLesActivites.js"></script>
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <img src="Images/logo_club.jpg" alt="logoClub"/>
+            <h1>Le club photo Verrières Images</h1>
+        </header>
+        <div id="date"></div>
+        <nav>
+            <ul id="menu01">
+                <li id="affMenuClub">
+                    Le club
+                    <ul id="menuClub">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="Activite.html">Les activités</a></li>
+                        <li><a href="LaPhototeque.html">La phototèque</a></li>
+                        <li><a href="contactezNous.html">Contactez-nous</a></li>
+                    </ul>
+                </li>
+                <li id="affMenuCDP91">
+                    Le CDP91
+                    <ul id="menuCDP91">
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="agendaExposition.html">Agenda des expositions</a></li>
+                        <li><a href="listeDesClubs.html">Liste des clubs</a></li>
+                    </ul>
+                </li>
+                <li><a href="Liens.html">Liens</a></li>
+            </ul>
+        </nav>
+        <section id="cheminDeFer"><p>Vous êtes ici : <span></span></p></section>
+        <section>
+            <article id="Activite" class="targetClass">
+                <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">La théoriet</a></li>
+                        <li><a href="#tabs-2">Le studio</a></li>
+                        <li><a href="#tabs-3">Le laboratoire</a></li>
+                        <li><a href="#tabs-4">Les sorties</a></li>
+                        <li><a href="#tabs-5">Les expositions</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <p>
+                            Le premier objectif du club est d'apprendre ou de s'améliorer dans les techniques de la prise de vue, du tirage
+                            et du développement de photographies argentiques.
+                        </p>
+                        <p>
+                            Des petites séances de cours théoriques vous sont proposées afin d'acquérir toutes les connaissances nécessaires.
+                        </p>
+                        <p>
+                            Le planning ainsi que les horraires sont débattus en début d'exercice du club.
+                        </p>
+                    </div>
+                    <div id="tabs-2">
+                        <p>
+                            La deuxième activité est d'apprendre à utiliser son appareil photo en acquérant les techniques de la prise de vue.
+                        </p>
+                        <p>
+                            Le club possède une salle destinée à la prise de vue en studio. Pour ce dernier, le club a à sa disposition des fonds 
+                            d'écrans, des flashs électroniques avec posemètre, une boite à la lumière et des éclairages traditionnels.
+                        </p>
+                        <p>
+                            Des travaux pratiques font suite aux cours théoriques.
+                        </p>
+                    </div>
+                    <div id="tabs-3">
+                        <p>
+                            Pour cette activité le club est muni d'un laboratoire photographique Noir&Blanc où se fait le développement des films ainsi
+                            que le tirage sur papier.
+                        </p>
+                        <p>
+                            Le labo est équipé d'un agrandisseur Durst muni d'une tête couleur permettant de tirer du 18x24 au 6"x9".
+                        </p>
+                        <p>
+                            Là aussi des travaux pratiques permettent d'acquérir les techniques de base du tirage argentique :
+                        </p>
+                        <ul>
+                            <li>pratique de l'agrandisseur</li>
+                            <li>les jeux d'essais</li>
+                            <li>le masquage</li>
+                            <li>le développement</li>
+                        </ul>
+                    </div>
+                    <div id="tabs-4">
+                        <table id="lesSorties">
+                            <thead>
+                                <th>date prévu</th>
+                                <th>lieu de sortie</th>
+                                <th>thème de la sortie</th>
+                            </thead>
+                            <tfoot>
+                                <th>date prévu</th>
+                                <th>lieu de sortie</th>
+                                <th>thème de la sortie</th>
+                            </tfoot>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tabs-5">
+                        <table id="resultatParticipation">
+                            <thead>
+                                <th>Exposition</th>
+                                <th>thème</th>
+                                <th>paticipant</th>
+                                <th>nom photo</th>
+                                <th>note</th>
+                            </thead>
+                            <tfoot>
+                                <th>Exposition</th>
+                                <th>thème</th>
+                                <th>paticipant</th>
+                                <th>nom photo</th>
+                                <th>note</th>
+                            </tfoot>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </article>
+        </section>
+        </div>
+    </body>
+</html>
