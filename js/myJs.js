@@ -10,8 +10,8 @@ var container = function () {
     
     $(document).ready(function() {
         
-        menuDate();
-        addChemin("Accueil");
+        menuDate(); //initialisation du menu est de la date
+        addChemin("Accueil"); //rajoute Accueil dans le chemin de fer
         //cheminDeFer = $("#cheminDeFer>p>span");
         
         //currentPos=getCookies(lecookieCurrentPos);

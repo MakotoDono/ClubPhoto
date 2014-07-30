@@ -11,8 +11,8 @@ var listeParticpant = [["Giant Expo", "nature et foret", "Edmond LEONARD", "sauv
                        ["Jardin floral", "les fleurs", "Remi GAYARD", "rose", "09/20"]
                    ];
 
-/*date prévu | lieu de sortie | thème de la sortie */
-var agendaSortie = [["18 décembre 2014", "Italie", "concours : Prenez une photo et voyagez"],
-                    ["21 novembre 2014", "bar Floral.photographie, Paris", "stage : Photographie contemporaine avec Lise Sarfati"],
-                    ["31 octobre 2014", "musée d'art et d'histoire de saint-Denis, Saint-Denis", "Peter Knapp, Rio sur Seine"]
+/*date prévu | lieu de sortie | thème de la sortie | Nombre de personnes*/
+var agendaSortie = [["18 décembre 2014", "Italie", "concours : Prenez une photo et voyagez", "10"],
+                    ["21 novembre 2014", "bar Floral.photographie, Paris", "stage : Photographie contemporaine avec Lise Sarfati", "5"],
+                    ["31 octobre 2014", "musée d'art et d'histoire de saint-Denis, Saint-Denis", "Peter Knapp, Rio sur Seine", "15"]
                 ];

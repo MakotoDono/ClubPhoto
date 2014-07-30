@@ -5,12 +5,6 @@
  */
 
 
-var clubMenu;
-//var clubMenuCacher;
-var CDP91Menu;
-//var CDP91MenuCacher;
-var lienMenu;
-var laDate;
 var cheminDeFer;
 //var currentPos = "";
 
@@ -135,6 +129,9 @@ function addChemin (leChemin) {
                 if (i === split.length-1 && split[i] === leChemin) {
                     addchemin = false;
                 }
+                /*else if ((i%4 ===0)&&(i !==0)) {
+                    cheminDeFer.append("<br/>>");
+                }*/
                 else {
                     cheminDeFer.append(">");
                 }
