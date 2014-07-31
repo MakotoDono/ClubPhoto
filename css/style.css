@@ -286,7 +286,7 @@ form textarea {
 }
 
 #infoSup>div {
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
     background-color: rgb(107,107,107);
     padding:5px;
@@ -297,46 +297,38 @@ form textarea {
 }
 
 /*Les différents tableaux*/
-#tableExposition, #tableExposition tr, #tableExposition th, #tableExposition td, 
-#tableListe, #tableListe tr, #tableListe th, #tableListe td,
-#resultatParticipation, #resultatParticipation tr, #resultatParticipation th, #resultatParticipation td,
-#lesSorties, #lesSorties tr, #lesSorties th, #lesSorties td {
+.mesTableaux, .mesTableaux tr, .mesTableaux th, .mesTableaux td {
     border: 5px solid cadetblue;
 }
 
-#tableExposition, #tableListe, #resultatParticipation, #lesSorties {
+.mesTableaux {
     border-collapse: collapse;
     text-align: center;
     /*border-radius : 10px;*/
 }
 
-#tableExposition thead, #tableListe thead, #resultatParticipation thead, #lesSorties thead,
-#tableExposition tfoot, #tableListe tfoot, #resultatParticipation tfoot, #lesSorties tfoot {
+.mesTableaux thead, .mesTableaux tfoot {
     background-color: blue;
     color:white;
 }
 
-#tableExposition tr, #tableExposition th, #tableExposition td,
-#tableListe tr, #tableListe th, #tableListe td,
-#resultatParticipation tr, #resultatParticipation th, #resultatParticipation td,
-#lesSorties tr, #lesSorties th, #lesSorties td {
+.mesTableaux tr, .mesTableaux th, .mesTableaux td {
     padding: 5px;
 }
 
-#tableExposition td, #tableListe td, #resultatParticipation td, #lesSorties td {
+.mesTableaux td {
     background-color: rgba(107,107,107, 0.4);
     color:blue;
 }
 
-#tableExposition>tbody>tr>td:last-child,
-#tableListe>tbody>tr>td:last-child {
+.tableauABouton>tbody>tr>td:last-child {
     /*height: 2em;
     width: 2em;*/
     padding: 0;
     margin: 0;
 }
 
-#tableExposition button, #tableListe button {
+.tableauABouton button {
     padding: 5px;
 }
 

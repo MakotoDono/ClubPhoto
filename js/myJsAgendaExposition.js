@@ -18,9 +18,9 @@ var container = function () {
         addChemin("agendaExposition");
    
         doTab();
-         
     });
     
     return true;
 }();
 
+//google.maps.event.addDomListener(window, 'load', initialize);
